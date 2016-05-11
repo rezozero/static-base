@@ -1,0 +1,47 @@
+/*------------------------------------*\
+   COMMON STYLES
+\*------------------------------------*/
+
+::selection { background-color:#fff; color:#000; }
+
+body {
+    font: normal 14px/16px @font;
+    color:#000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s color;
+    color:#000;
+
+    &:hover, &:focus{
+        text-decoration: none;
+        color:lighten(#000, 10%);
+    }
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+// --- Table cell --- //
+.table{
+    position:relative;
+    display: table;
+    width:100%; height:100%;
+}
+
+.table-cell{
+    position: relative;
+    display: table-cell; vertical-align: middle;
+}
