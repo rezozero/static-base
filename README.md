@@ -1,6 +1,6 @@
 # Static base
 
-This repo is a **fresh start** to create a custom website (static adaptation of [https://github.com/roadiz/BaseTheme/](Roadiz BaseTheme)).
+This repo is a **fresh start** to create a custom website (static adaptation of [Roadiz BaseTheme](https://github.com/roadiz/BaseTheme/)).
 
 * **Find and replace** every `StaticBase` occurences over this folder using your own project name, verify in:
     * Absolute paths in `bootstrap.js`
